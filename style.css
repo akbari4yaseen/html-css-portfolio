@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 :root {
   --primary-color: #134dc7;
   --secondary-color: #172b4d;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -32,9 +34,11 @@ header {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
 .hamburger-btn:hover span {
   background-color: var(--secondary-color);
 }
+
 .hamburger-btn span {
   height: 3px;
   width: 30px;
