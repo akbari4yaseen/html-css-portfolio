@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -35,13 +35,13 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-.hamburger-btn:hover span {
-  background-color: var(--secondary-color);
-}
-
 .hamburger-btn span {
   height: 3px;
   width: 30px;
   background: var(--primary-color);
   border-radius: 2px;
+}
+
+.hamburger-btn:hover span {
+  background-color: var(--secondary-color);
 }
