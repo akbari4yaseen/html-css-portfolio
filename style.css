@@ -3,6 +3,7 @@
 :root {
   --primary-color: #134dc7;
   --secondary-color: #172b4d;
+  --default-transition: all 0.3s ease-in-out;
 }
 
 * {
@@ -32,7 +33,7 @@ header {
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: var(--default-transition);
 }
 
 .hamburger-btn span {
@@ -44,4 +45,34 @@ header {
 
 .hamburger-btn:hover span {
   background-color: var(--secondary-color);
+}
+
+main {
+  padding: 10px 30px;
+}
+
+.headline {
+  margin-top: 40px;
+}
+
+.headline h2 {
+  font-size: medium;
+  margin-top: 20px;
+  color: var(--primary-color);
+}
+
+.social-media {
+  margin-top: 8px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin-right: 10px;
+  font-size: 24px;
+  transition: var(--default-transition);
+}
+
+.social-media a:hover {
+  color: var(--primary-color);
 }
