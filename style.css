@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-:root {
-  --primary-color: #134dc7;
-  --secondary-color: #172b4d;
-  --default-transition: all 0.3s ease-in-out;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -13,66 +7,84 @@
 }
 
 body {
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  width: 375px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  height: 48px;
 }
 
-.brand-name {
-  color: var(--primary-color);
-}
-
-.hamburger-btn {
+.logo {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  margin-left: 12px;
+  margin-top: 4px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+nav {
+  padding: 8px;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
   cursor: pointer;
-  transition: var(--default-transition);
-}
-
-.hamburger-btn span {
-  height: 3px;
-  width: 30px;
-  background: var(--primary-color);
-  border-radius: 2px;
-}
-
-.hamburger-btn:hover span {
-  background-color: var(--secondary-color);
-}
-
-main {
-  padding: 10px 30px;
 }
 
 .headline {
-  margin-top: 40px;
+  background-image: url("images/header-shapes-mobile.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
 }
 
-.headline h2 {
-  font-size: medium;
-  margin-top: 20px;
-  color: var(--primary-color);
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.contact-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .social-media {
-  margin-top: 8px;
-}
-
-.social-media a {
   text-decoration: none;
-  color: var(--secondary-color);
-  margin-right: 10px;
-  font-size: 24px;
-  transition: var(--default-transition);
-}
-
-.social-media a:hover {
-  color: var(--primary-color);
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }

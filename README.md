@@ -8,6 +8,7 @@
 
 - HTML
 - CSS
+- Figma
 
 ## Getting Started
 
