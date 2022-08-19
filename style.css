@@ -209,7 +209,7 @@ ul {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  font-family: "Poppins";
+  font-family: inherit;
   font-style: normal;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -329,7 +329,7 @@ ul {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  font-family: "Poppins";
+  font-family: inherit;
   font-style: normal;
   border: none;
   border-radius: 8px;
