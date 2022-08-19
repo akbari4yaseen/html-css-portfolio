@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> The Day 3 - "Portfolio" Project
+> The Day 4 Microverse - "Mobile Version Portfolio" Project
 
 ## Built With
 
